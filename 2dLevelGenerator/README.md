@@ -1,4 +1,4 @@
-# LevelGenerator script will convert color in to prefab
+H6 LevelGenerator script will convert color in to prefab
 # The color must be identical 
 # For example a pixal with alfard channel is 0 (color.a==0) will be 0
 # Another example color blue is a colo.a=255 r=0 g=0 b=0
