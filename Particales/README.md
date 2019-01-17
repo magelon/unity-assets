@@ -1,1 +1,1 @@
-# use for polishing
+# these assets are used for polishing
