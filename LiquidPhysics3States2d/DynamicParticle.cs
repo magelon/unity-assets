@@ -88,7 +88,8 @@ public class DynamicParticle : MonoBehaviour {
 		float scaleValue = 1.0f-((Time.time-startTime)/particleLifeTime);
 		Vector2 particleScale=Vector2.one;
 		if (scaleValue <= 0) {
-						Destroy (gameObject);
+			//Destroy gameobject is not resource friendly considering using object polling instead
+			Destroy (gameObject);
 		} else{
 			particleScale.x=scaleValue;
 			particleScale.y=scaleValue;
