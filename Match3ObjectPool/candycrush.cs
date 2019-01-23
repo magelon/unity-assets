@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 //Tile need a collider box 2d enable to respon to raycast
 //tiles must great than 5 has glitch during only test 3 tiles
+//laterly fixed by double the pool size of bank objects
 public class Tile {
     public GameObject tileObj;
     public string type;
