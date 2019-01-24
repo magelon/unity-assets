@@ -31,6 +31,7 @@ public class CutHoleOnPlane : MonoBehaviour
                 float edge3 = Vector3.Distance(p1, p2);
                 Vector3 shared1;
                 Vector3 shared2;
+                //find the longest edge
                 if (edge1 > edge2 && edge1 > edge3)
                 {
                     shared1 = p0;
