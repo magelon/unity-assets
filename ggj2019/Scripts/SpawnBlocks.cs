@@ -101,6 +101,8 @@ public class SpawnBlocks : MonoBehaviour
         //prevent collision with droping box
         private IEnumerator InstantiateBox()
     {
+    //not using wait time will fix the bug in game
+    //yield return null;
         yield return new WaitForSeconds(1);
         InstantiateNewBlock(dirx);   
     }
