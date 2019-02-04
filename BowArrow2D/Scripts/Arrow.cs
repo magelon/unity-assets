@@ -27,7 +27,7 @@ public class Arrow : MonoBehaviour
             {
                 // get the actual velocity
                 Vector3 vel = GetComponent<Rigidbody2D>().velocity;
-                // calc the rotation from x and y velocity via a simple atan2
+                // calc the rotation from x and y velocity via a simple atan2 Radians-to-degrees conversion constant 
                 float angleZ = Mathf.Atan2(vel.y, vel.x) * Mathf.Rad2Deg;
                 float angleY = Mathf.Atan2(vel.z, vel.x) * Mathf.Rad2Deg;
                 // rotate the arrow according to the trajectory
