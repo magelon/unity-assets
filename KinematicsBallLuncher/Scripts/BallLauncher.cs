@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//speed + direction :velocity
 public class BallLauncher : MonoBehaviour {
 
 	public Rigidbody ball;
